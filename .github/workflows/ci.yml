@@ -68,4 +68,4 @@ jobs:
           echo "## Confusion Matrix" >> report.md
           echo "![](./conf_matrix.png)" >> report.md
 
-          cml comment create --pr report.md
+          cml comment create report.md
